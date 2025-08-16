@@ -1,0 +1,133 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background: #f8fafc;
+  color: #333;
+}
+
+.topbar {
+  background: #003366;
+  color: white;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+header {
+  background: #003366;
+  color: white;
+  padding: 15px 0;
+}
+
+header .nav-area {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+navstyle {
+   font-size: 12px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+h2 {
+  color: #003366;
+  border-bottom: 3px solid #ffcc00;
+  padding-bottom: 5px;
+}
+
+.paper-card {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border-left: 5px solid #0056d2;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.paper-card h3 {
+  margin-top: 0;
+  color: #0056d2;
+}
+
+.paper-card .authors {
+  font-style: italic;
+  color: #555;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 8px 12px;
+  background: #ffcc00;
+  color: black;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.download-btn:hover {
+  background: #e6b800;
+}
+
+form.submit-form {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  border-left: 5px solid #0056d2;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background: #0056d2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background: #003f99;
+}
+
+.message {
+  background: #d1f7d6;
+  color: #256029;
+  padding: 10px;
+  border-radius: 5px;
+}
